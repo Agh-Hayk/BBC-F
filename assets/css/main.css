@@ -42,7 +42,7 @@
 .menu ul li a {
     color: #131815;
     text-decoration: none;
-    font-family: 'Raleway-Medium';
+    font-family: "Raleway-Bold";
 }
 
 /* -----------header information----------- */
@@ -82,7 +82,7 @@
 }
 
 .header-info button {
-    font-family: 'Raleway-Medium';
+    font-family: "Raleway-Bold";
     background: #131815;
     border-radius: 20px;
     padding: 18px 46px;
@@ -201,6 +201,7 @@
     font-family: 'Raleway-Medium';
     padding: 18px 60px;
     cursor: pointer;
+    font-family: "Raleway-Bold";
 }
 
 
@@ -231,7 +232,6 @@
 }
 
 .owl-slider .item {
-    background: linear-gradient(116.73deg, rgba(241, 243, 243, 0.9) 9.85%, rgba(255, 255, 255, 0.216) 62.34%, rgba(247, 250, 248, 0.9) 100%);
     box-shadow: 0px 1px 50px rgba(0, 0, 0, 0.05);
     backdrop-filter: blur(2px);
     border-radius: 25px;
@@ -272,6 +272,197 @@
 .owl-theme .owl-dots .owl-dot:hover span {
     background: #000000 !important;
 }
+
+
+
+
+
+/* ---------portfolio-section--------- */
+
+.portfolio-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 124px;
+}
+
+.portfolio-section>p {
+    font-size: 18px;
+    text-align: center;
+    color: #131815;
+
+}
+
+.portfolio-section>h3 {
+    font-family: "Raleway-ExtraBold";
+    font-size: 56px;
+    color: #131815;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.portfolio-section>div {
+    margin-bottom: 54px;
+}
+
+.portfolio-section>div>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.portfolio-section button {
+    padding: 18px 30px;
+    font-size: 15px;
+    color: #131815;
+    border: 1px dashed #000000;
+    border-radius: 20px;
+    outline: none;
+    width: fit-content;
+    margin: 0 auto;
+    background: #FFFFFF;
+    font-family: "Raleway-Bold";
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-section button img {
+    margin-right: 14px;
+}
+
+
+
+
+
+/* ------------black-section-get-in-touch------------ */
+.black-section-get-in-touch {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.black-section-get-in-touch .left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 446px;
+    margin-right: 180px;
+}
+
+.black-section-get-in-touch .left-side h3 {
+    font-size: 56px;
+    color: #FFFFFF;
+    font-family: "Raleway-ExtraBold";
+    margin-bottom: 50px;
+}
+
+.black-section-get-in-touch .left-side-text {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    line-height: 34px;
+}
+
+.black-section-get-in-touch .left-side-email {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.black-section-get-in-touch .left-side-email span {
+    color: #6ADA82;
+}
+
+.black-section-get-in-touch .right-side form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+}
+
+.black-section-get-in-touch .right-side form input,
+.black-section-get-in-touch .right-side form textarea {
+    width: 95%;
+    background: #131815;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 16px 16px 16px 0;
+    font-size: 15px;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.black-section-get-in-touch .right-side form input:focus,
+.black-section-get-in-touch .right-side form textarea:focus {
+    border-bottom: 1px dashed #FFFFFF;
+}
+
+.black-section-get-in-touch .right-side form button {
+    font-family: "Raleway-Bold";
+    padding: 18px 27px;
+    color: #131815;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.black-section-get-in-touch .right-side form input {
+    margin-bottom: 32px;
+}
+
+.black-section-get-in-touch .right-side form textarea {
+    resize: none;
+}
+
+
+
+/* --------footer-------- */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.footer>p {
+    font-size: 15px;
+    color: #131815;
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.footer .menu-icon {
+    display: none;
+}
+
+.footer ul li {
+    font-size: 15px;
+}
+
+.footer ul li a {
+    color: #131815;
+    text-decoration: none;
+    font-family: "Raleway-Bold";
+}
+
+.footer ul li:not(:last-child) {
+    margin-right: 68px;
+}
+
+
 
 @media screen and (max-width: 1279px) {
     .header-info {
@@ -397,9 +588,146 @@
         font-size: 44px;
     }
 
-    .owl-slider .item{
+    .owl-slider .item {
         margin: 25px;
         padding: 25px;
     }
 
+
+
+    /* ---------portfolio-section--------- */
+
+    .portfolio-section {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 124px;
+    }
+
+    .portfolio-section>p {
+        font-size: 18px;
+    }
+
+    .portfolio-section>h3 {
+        font-family: "Raleway-ExtraBold";
+        font-size: 44px;
+        margin-bottom: 40px;
+    }
+
+    .portfolio-section>div {
+        margin-bottom: 54px;
+    }
+
+    .portfolio-section>div>div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .portfolio-section>div>div img {
+        width: 24%;
+    }
+
+    .portfolio-section button {
+        padding: 18px 30px;
+        font-size: 15px;
+        color: #131815;
+        border: 1px dashed #000000;
+        border-radius: 20px;
+        outline: none;
+        width: fit-content;
+        margin: 0 auto;
+        background: #FFFFFF;
+        font-family: "Raleway-Bold";
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+    .portfolio-section button img {
+        margin-right: 14px;
+    }
+
+
+
+
+    /* ------------black-section-get-in-touch------------ */
+
+    .black-section-get-in-touch {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .black-section-get-in-touch .left-side {
+        flex-direction: column;
+        align-items: center;
+        max-width: 446px;
+        margin-right: 0;
+    }
+
+    .black-section-get-in-touch .left-side h3 {
+        font-size: 44px;
+        font-family: "Raleway-ExtraBold";
+        margin-bottom: 53px;
+        text-align: center;
+    }
+
+    .black-section-get-in-touch .left-side-text {
+        font-size: 18px;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .black-section-get-in-touch .left-side-email {
+        font-size: 18px;
+        color: #FFFFFF;
+        margin-bottom: 50px;
+    }
+
+    .black-section-get-in-touch .right-side {
+        max-width: 400px;
+        min-width: 300px;
+    }
+
+    .black-section-get-in-touch .right-side form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .black-section-get-in-touch .right-side form button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* -----------footer----------- */
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .footer>p {
+        margin-top: 40px;
+        order: 1;
+    }
+
+    .footer ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer ul li {
+        margin-bottom: 20px;
+        margin-right: 0 !important;
+    }
 }
