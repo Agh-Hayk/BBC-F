@@ -9,6 +9,11 @@ body{
 }
 
 @font-face {
+    font-family: "Raleway-ExtraBold";
+    src: url('../fonts/Raleway-ExtraBold.ttf') format('opentype');
+}
+
+@font-face {
     font-family: "Raleway-Bold";
     src: url('../fonts/Raleway-Bold.ttf') format('opentype');
 }
