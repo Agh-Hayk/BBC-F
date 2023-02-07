@@ -37,6 +37,14 @@ body{
     max-width: 1170px;
     margin: 0 auto;
     padding-left: 20px;
-    padding-right: 20px;
-    
+    padding-right: 20px;   
+}
+
+.text-with-line{
+    display: flex;
+    align-items: center;
+}
+
+.text-with-line img:last-child{
+    margin-right:15px;
 }

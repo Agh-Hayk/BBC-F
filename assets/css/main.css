@@ -42,6 +42,7 @@
 .menu ul li:last-child:hover {
     border: 1px solid #000000;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .menu ul li a {
@@ -147,6 +148,10 @@
     max-width: 540px;
 }
 
+.about-section-left p {
+    font-size: 18px;
+    color: #131815;
+}
 
 
 
@@ -348,31 +353,16 @@
 
 .portfolio-section button:hover {
     border: 1px solid #000000;
+    transition: 0.3s;
 }
 
 .portfolio-section button:hover img {
-    animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: rotate-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .portfolio-section button img {
     margin-right: 14px;
 }
-
-@keyframes rotate-in-center {
-    0% {
-        -webkit-transform: rotate(-360deg);
-        transform: rotate(-360deg);
-        opacity: 0;
-    }
-
-    100% {
-        -webkit-transform: rotate(0);
-        transform: rotate(0);
-        opacity: 1;
-    }
-}
-
-
 
 /* ------------black-section-get-in-touch------------ */
 .black-section-get-in-touch {
@@ -402,6 +392,11 @@
     color: #FFFFFF;
     margin-bottom: 50px;
     line-height: 34px;
+}
+
+.black-section-get-in-touch .top-text {
+    font-size: 18px !important;
+    color: #FFFFFF !important;
 }
 
 .black-section-get-in-touch .left-side-email {
@@ -510,7 +505,27 @@
 
 
 
+
+
+
+
+
+
+/* ==============MEDIA============== */
+
 @media screen and (max-width: 1279px) {
+
+    /* ---------global--------- */
+
+    .text-with-line {
+        justify-content: center;
+    }
+
+
+
+
+    /* ---------header--------- */
+
     .header-info {
         flex-direction: column;
     }
@@ -551,6 +566,10 @@
         max-width: 711px;
     }
 
+
+
+
+
     /* ---------about section--------- */
 
     .about-section {
@@ -574,6 +593,10 @@
         max-width: 600px;
         text-align: center;
     }
+
+
+
+
 
     /* ----------black-section---------- */
 
@@ -621,6 +644,8 @@
     .black-section-mind .right-side h3 span {
         padding-left: 0;
     }
+
+
 
 
     /* --------features-section--------r */
@@ -753,6 +778,8 @@
         margin-right: auto;
     }
 
+
+
     /* -----------footer----------- */
 
     .footer {
@@ -775,5 +802,25 @@
     .footer ul li {
         margin-bottom: 20px;
         margin-right: 0 !important;
+    }
+}
+
+
+
+
+
+/* ==============KEYFRAMES============== */
+
+@keyframes rotate-in-center {
+    0% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        opacity: 1;
     }
 }
