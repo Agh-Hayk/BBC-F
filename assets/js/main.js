@@ -10,3 +10,13 @@ $(document).ready(function(){
         }
     });
   });
+
+  $('.load-more').click(()=>{
+    $('.portfolio-row-toggle').slideToggle();
+    if($('.load-more').text() === 'close'){
+        $('.load-more').html('<img src="./assets/images/shape.png" alt="shape">load more')
+    }else{
+        $('.load-more').html('close')
+    }
+    
+  })
