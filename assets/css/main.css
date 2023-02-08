@@ -344,6 +344,7 @@
 
 .portfolio-section>div>div img {
     max-width: 200px;
+    filter: grayscale(1);
 }
 
 .portfolio-section button {
