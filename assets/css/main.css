@@ -58,6 +58,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 115px;
 }
 
 .header-info-text {
@@ -131,7 +132,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 230px;
+    margin-top: 115px;
     margin-bottom: 90px;
 }
 
@@ -538,6 +539,7 @@
 
     .header-info {
         flex-direction: column;
+        padding-bottom: 50px;
     }
 
     .header-info-text {
@@ -587,7 +589,7 @@
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
-        margin-top: 100px;
+        margin-top: 50px;
         margin-bottom: 60px;
     }
 
