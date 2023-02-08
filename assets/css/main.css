@@ -23,6 +23,7 @@
 
 .menu .menu-icon {
     display: none;
+    cursor: pointer;
 }
 
 .menu ul li {
@@ -220,6 +221,7 @@
     padding: 18px 60px;
     cursor: pointer;
     font-family: "Raleway-Bold";
+    border: none;
 }
 
 .black-section-mind .right-side button:hover {
