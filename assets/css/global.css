@@ -4,6 +4,10 @@
     font-family: "Raleway-Regular";
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #F5F5F5;
 }
