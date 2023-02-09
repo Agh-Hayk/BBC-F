@@ -17,13 +17,25 @@ $(document).ready(function(){
     
   })
 
-  $('.menu-icon').click(()=>{
+  if(window.matchMedia("(max-width: 1279px)").matches){
+    $('.menu-icon').click(()=>{
    
-    if($('.menu-icon').attr('src') == './assets/images/menu.png'){
-        $('.menu-icon').attr('src','./assets/images/close.png')
-    }else{
-        $('.menu-icon').attr('src','./assets/images/menu.png')
-    }
+        if($('.menu-icon').attr('src') == './assets/images/menu.png'){
+            $('.menu-icon').attr('src','./assets/images/close.png')
+        }else{
+            $('.menu-icon').attr('src','./assets/images/menu.png')
+        }
+    
+        $('.menu ul').slideToggle();  
+      })
+    
+      $('.menu ul li').click(()=>{
+        if($('.menu-icon').attr('src') == './assets/images/menu.png'){
+            $('.menu-icon').attr('src','./assets/images/close.png')
+        }else{
+            $('.menu-icon').attr('src','./assets/images/menu.png')
+        }
+        $('.menu ul').slideToggle();
+      })
+}
 
-    $('.menu ul').slideToggle();  
-  })
