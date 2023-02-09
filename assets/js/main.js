@@ -13,10 +13,17 @@ $(document).ready(function(){
 
   $('.load-more').click(()=>{
     $('.portfolio-row-toggle').slideToggle();
-    if($('.load-more').text() === 'close'){
-        $('.load-more').html('<img src="./assets/images/shape.png" alt="shape">load more')
-    }else{
-        $('.load-more').html('close')
-    }
+   
     
+  })
+
+  $('.menu-icon').click(()=>{
+   
+    if($('.menu-icon').attr('src') == './assets/images/menu.png'){
+        $('.menu-icon').attr('src','./assets/images/close.png')
+    }else{
+        $('.menu-icon').attr('src','./assets/images/menu.png')
+    }
+
+    $('.menu ul').slideToggle();  
   })
