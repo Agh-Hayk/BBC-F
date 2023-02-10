@@ -34,17 +34,17 @@
     margin-right: 68px;
 }
 
-.menu ul li:last-child {
+/* .menu ul li:last-child {
     border: 1px dashed #000000;
     border-radius: 20px;
     padding: 18px 32px;
-}
+} */
 
-.menu ul li:last-child:hover {
+/* .menu ul li:last-child:hover {
     border: 1px solid #000000;
     cursor: pointer;
     transition: 0.3s;
-}
+} */
 
 .menu ul li a {
     color: #131815;
