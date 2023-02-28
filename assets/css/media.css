@@ -1,0 +1,126 @@
+@media screen and (max-width: 1625px) {
+    .single-post-inner h3 {
+        font-size: 28px;
+        line-height: 40px;
+
+    }
+
+    .single-post-inner {
+        padding: 20px 20px 20px 30px;
+    }
+
+    .post-list-item>h5 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .single-post-inner h3 {
+        font-size: 20px;
+        line-height: unset;
+
+    }
+
+    .single-post-inner {
+        padding: 20px 20px 20px 30px;
+    }
+
+    .post-list-item>h5 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .post-list-items {
+        flex-direction: column;
+    }
+
+    .post-list-item {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .single-post {
+        flex-direction: column;
+    }
+
+    .single-post .left-img-side {
+        width: 100%;
+    }
+
+    .single-post-inner {
+        width: 100%;
+    }
+
+    .continue-reading-content img,
+    .single-post .left-img-side img,
+    .post-list-item>img {
+        height: 250px;
+    }
+
+    .continue-reading-content-texts>h5 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .content-inner {
+        flex-direction: column;
+    }
+
+    .vertical_line {
+        display: none;
+    }
+
+    .right-box,
+    .posts {
+        width: 100%;
+    }
+    
+    .right-box-tags{
+        display: none;
+    }
+
+    .research .header-left {
+        width: 276px;
+    }
+
+    .research .header-right {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .left-nav{
+        position: fixed;
+        background: white;
+        z-index: 9;
+        width: 110px;
+        left: -110px;
+    }
+
+    .research .content{
+        max-width: 100%;
+    }
+
+    .header-right-user p{
+        display: none;
+    }
+
+    .research .header{
+        flex-direction: column;
+    }
+
+    .research .header-left{
+        order: 1;
+        width: 100%;
+    }
+
+    .research .header-right{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .research .header-right-user .img-left{
+        margin-right: 2px;
+    }
+}
