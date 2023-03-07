@@ -5,10 +5,6 @@
 
     }
 
-    .alalysts-list{
-        gap: 50px 50px;
-    }
-
     .single-post-inner {
         padding: 20px 20px 20px 30px;
     }
@@ -16,31 +12,6 @@
     .post-list-item>h5 {
         font-size: 20px;
         line-height: 30px;
-    }
-
-    .blog-info-box-text {
-        margin-right: 0;
-    }
-
-    .blog-info-box {
-        justify-content: space-between;
-    }
-}
-
-@media screen and (max-width: 1365px) {
-    .blog-info-box {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .blog-info-box-text {
-        max-width: 100%;
-    }
-
-    .right-side {
-        margin-top: 50px;
-        width: 100%;
-        max-width: 400px;
     }
 }
 
@@ -104,8 +75,8 @@
     .posts {
         width: 100%;
     }
-
-    .right-box-tags {
+    
+    .right-box-tags{
         display: none;
     }
 
@@ -119,31 +90,7 @@
 }
 
 @media screen and (max-width: 865px) {
-
-    .header-info h2 {
-        font-size: 30px;
-        line-height: 40px;
-        margin-bottom: 24px;
-        text-align: center;
-    }
-
-    .blog-header span {
-        margin-left: 0;
-    }
-
-    .blog-header {
-        justify-content: center;
-        height: 360px;
-        align-items: center;
-        text-align: center;
-    }
-
-
-    .header-info {
-        flex-direction: column;
-    }
-
-    .left-nav {
+    .left-nav{
         position: fixed;
         background: white;
         z-index: 9;
@@ -151,40 +98,29 @@
         left: -110px;
     }
 
-    .research .content {
+    .research .content{
         max-width: 100%;
     }
 
-    .header-right-user p {
+    .header-right-user p{
         display: none;
     }
 
-    .research .header {
+    .research .header{
         flex-direction: column;
     }
 
-    .research .header-left {
+    .research .header-left{
         order: 1;
         width: 100%;
     }
 
-    .research .header-right {
+    .research .header-right{
         width: 100%;
         margin-bottom: 25px;
     }
 
-    .research .header-right-user .img-left {
+    .research .header-right-user .img-left{
         margin-right: 2px;
     }
 }
-
-@media screen and (max-width: 560px) {
-    .alalysts-list{
-        gap: 50px 0px;
-    }
-
-    .alalysts-list div{
-        width: 100%;
-    }
-}
-
