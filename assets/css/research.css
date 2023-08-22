@@ -12,7 +12,6 @@
     --bg2: black;
     --text-color: #F5F5F5;
     --img-filter: invert(1)
-
 }
 
 * {
@@ -118,7 +117,7 @@ body {
     width: 24%;
 }
 
-.research .header-right>img{
+.research .header-right>img {
     filter: var(--img-filter);
 }
 
@@ -237,6 +236,11 @@ body {
     line-height: 30px;
     color: var(--text-color);
     margin-bottom: 25px;
+}
+
+.single-post-inner p,
+.single-post-inner h2 {
+    color: var(--text-color);
 }
 
 .single-post-user {
